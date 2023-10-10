@@ -1,11 +1,18 @@
 Package: shinyAuth
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Secure Authentication Workflow for Shiny Applications
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Jubilee Tan
+Maintainer: Jubilee <jubilee2@gmail.com>
+Description: shinyAuth provides a robust authentication workflow for Shiny applications. It enhances the security of your Shiny app by integrating with third-party APIs to verify the eligibility of users, ensuring that only authorized individuals gain access.
+License: MIT
+License: MIT
 Encoding: UTF-8
 LazyData: true
+Imports:
+  shiny,
+  stringr,
+  httr
+  
+Suggests:
+  yaml
